@@ -2,20 +2,26 @@ package com.hryg.ddv.vtable.domain;
 
 import java.util.Date;
 
+/**
+ * 点菜单
+ *
+ * @author hryg
+ * Created on 2018-10-09
+ */
 public class Order {
-    private Integer ID;
+    private Integer id;
     private User user;
     private Family family;
     private Date date;
     private String type;
     private String remark;
 
-    public Integer getID() {
-        return ID;
+    public Integer getId() {
+        return id;
     }
 
-    public void setID(Integer ID) {
-        this.ID = ID;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public User getUser() {

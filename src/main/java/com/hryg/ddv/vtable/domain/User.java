@@ -1,17 +1,23 @@
 package com.hryg.ddv.vtable.domain;
 
+/**
+ * 用户
+ *
+ * @author hryg
+ * Created on 2018-10-09
+ */
 public class User {
-    private Integer ID;
+    private Integer id;
     private String name;
     private String familyRole;
     private Family family;
 
-    public Integer getID() {
-        return ID;
+    public Integer getId() {
+        return id;
     }
 
-    public void setID(Integer ID) {
-        this.ID = ID;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {

@@ -1,15 +1,21 @@
 package com.hryg.ddv.vtable.domain;
 
+/**
+ * 标签
+ *
+ * @author hryg
+ * Created on 2018-10-09
+ */
 public class Tag {
-    private Integer ID;
+    private Integer id;
     private String value;
 
-    public Integer getID() {
-        return ID;
+    public Integer getId() {
+        return id;
     }
 
-    public void setID(Integer ID) {
-        this.ID = ID;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getValue() {

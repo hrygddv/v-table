@@ -1,7 +1,13 @@
 package com.hryg.ddv.vtable.domain;
 
+/**
+ * 菜品
+ *
+ * @author hryg
+ * Created on 2018-10-09
+ */
 public class Dish {
-    private Integer ID;
+    private Integer id;
     private String name;
     private String describe;
     private String image;
@@ -9,12 +15,12 @@ public class Dish {
     private Integer skill;
     private Family family;
 
-    public Integer getID() {
-        return ID;
+    public Integer getId() {
+        return id;
     }
 
-    public void setID(Integer ID) {
-        this.ID = ID;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public String getName() {

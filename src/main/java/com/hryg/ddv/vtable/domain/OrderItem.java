@@ -1,17 +1,23 @@
 package com.hryg.ddv.vtable.domain;
 
+/**
+ * 点菜单项
+ *
+ * @author hryg
+ * Created on 2018-10-09
+ */
 public class OrderItem {
-    private Integer ID;
+    private Integer id;
     private Order order;
     private Dish dish;
     private Integer grade;
 
-    public Integer getID() {
-        return ID;
+    public Integer getId() {
+        return id;
     }
 
-    public void setID(Integer ID) {
-        this.ID = ID;
+    public void setId(Integer id) {
+        this.id = id;
     }
 
     public Order getOrder() {
